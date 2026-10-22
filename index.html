@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>随记隐私政策 | Suiji Privacy Policy</title>
+  <meta name="description" content="随记（Suiji）iOS 应用隐私政策">
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Helvetica Neue",Arial,sans-serif;color:#1d1d1f;background:#f5f5f7;line-height:1.7}
+    *{box-sizing:border-box} body{margin:0} main{max-width:860px;margin:0 auto;padding:48px 20px 80px}
+    article{background:#fff;border-radius:22px;padding:42px;box-shadow:0 8px 30px rgba(0,0,0,.06)}
+    h1{font-size:34px;margin:0 0 8px} h2{font-size:22px;margin-top:34px} h3{font-size:18px;margin-top:24px}
+    p,li{font-size:16px}.muted{color:#6e6e73}.badge{display:inline-block;padding:5px 10px;border-radius:999px;background:#f0f0f2;font-size:13px}
+    a{color:#06c}.divider{height:1px;background:#e5e5e7;margin:44px 0}
+    footer{margin-top:28px;text-align:center;color:#6e6e73;font-size:13px}
+    @media (prefers-color-scheme:dark){:root{color:#f5f5f7;background:#111}article{background:#1c1c1e;box-shadow:none}.muted,footer{color:#a1a1a6}.badge{background:#2c2c2e}a{color:#2997ff}.divider{background:#38383a}}
+    @media(max-width:600px){main{padding:20px 12px 50px}article{padding:26px 20px;border-radius:16px}h1{font-size:29px}}
+  </style>
+</head>
+<body>
+<main>
+<article>
+  <span class="badge">随记 · Suiji</span>
+  <h1>隐私政策</h1>
+  <p class="muted">生效日期：2026 年 10 月 22 日 · 最后更新：2026 年 10 月 22 日</p>
+
+  <p>“随记”（Suiji）是一款本机优先的 iOS 备忘录应用。我们重视你的隐私。本政策说明应用会处理哪些数据、数据存放在哪里，以及你可以如何控制这些数据。</p>
+
+  <h2>1. 账号与默认本机存储</h2>
+  <p>随记无需注册账号。备忘录、照片、文件夹、标签、标注及相关设置默认保存在你的设备本地。应用没有由开发者运营的笔记内容服务器，也不包含广告、跨应用跟踪或行为分析 SDK。</p>
+
+  <h2>2. 照片、相机、导出与系统分享</h2>
+  <p>只有在你主动使用相关功能时，应用才会请求访问相册、相机或系统分享能力。你选择的照片可作为笔记内容、背景或文件夹封面，并按你的选择保存在本机、包含在备份中，或在开启 iCloud 同步后参与同步。通过系统分享功能发送的内容由你自行选择接收方。</p>
+
+  <h2>3. 加密与锁定内容</h2>
+  <p>当你为备忘录或文件夹启用密码保护时，正文、照片、标签与标注等受保护内容会使用密码派生密钥加密。为了在锁定列表中识别内容，标题以及部分索引信息（例如文件夹名称、封面、时间和标识符）可能以明文形式保存在本机，并在启用 iCloud 同步时同步。</p>
+  <p>密码本身不会作为可恢复的明文密码保存，开发者也无法替你找回密码。请妥善保存密码和备份。</p>
+
+  <h2>4. 可选的 iCloud 同步</h2>
+  <p>iCloud 同步默认关闭。只有你主动开启后，应用才会把相关数据同步到当前 Apple ID 对应的应用私有 CloudKit 数据库。云端存储由 Apple 提供，不经过开发者自建的笔记服务器。</p>
+  <p>同步数据可包括普通笔记内容、照片、文件夹、标注、排序信息、加密备忘录密文、密码派生参数以及锁定列表所需的明文标题索引。模型密钥和模型配置不参与 iCloud 同步。</p>
+  <p>关闭同步不会自动删除已经存在于 iCloud 的副本。你可以通过 Apple 系统设置管理与应用相关的 iCloud 数据。</p>
+
+  <h2>5. 可选的 AI / 模型服务</h2>
+  <p>模型功能默认关闭。你可以自行填写兼容模型服务的地址、模型名称和密钥。连接测试只发送固定测试消息。</p>
+  <p>当你主动使用年度总结等模型功能时，应用会在发送前说明目标服务和数据范围，并在你确认后，将所选范围内的普通笔记标题、正文和已收录标注发送到你自行配置的第三方模型服务。加密备忘录、最近删除内容和照片不会作为模型请求内容发送。</p>
+  <p>第三方模型服务对数据的保存、使用、删除和安全措施由该服务商自己的隐私政策决定。已发送到第三方服务的数据，需要按照相应服务商的政策管理或删除。</p>
+
+  <h2>6. 密钥与安全信息</h2>
+  <p>在 iOS 上，模型密钥存放于系统钥匙串，不包含在应用数据备份中。应用不会把模型密钥放入请求 URL。</p>
+
+  <h2>7. 删除与保留</h2>
+  <p>移入“最近删除”的备忘录或文件夹默认保留 30 天，之后由应用清理。本机删除状态在下一次成功 iCloud 同步时传播到云端。你自行导出的备份文件不会因为应用内删除操作而自动删除。</p>
+
+  <h2>8. 我们不会做的事情</h2>
+  <ul>
+    <li>不出售你的个人数据或笔记内容。</li>
+    <li>不使用广告 SDK。</li>
+    <li>不进行跨 App、跨网站跟踪。</li>
+    <li>不在未经你操作和确认的情况下把笔记内容发送给第三方模型服务。</li>
+  </ul>
+
+  <h2>9. 政策更新</h2>
+  <p>如果应用的数据处理方式发生重要变化，我们会更新本页面，并在需要时同步更新 App Store Connect 中的隐私信息。</p>
+
+  <h2>10. 联系方式</h2>
+  <p>如对本隐私政策或随记的数据处理方式有疑问，请通过本政策页面对应的公开 GitHub 仓库 Issues 联系开发者：<a href="https://github.com/gitfengxx/suiji-privacy/issues">https://github.com/gitfengxx/suiji-privacy/issues</a>。</p>
+  <p>技术支持页面：<a href="./support.html">随记支持 / Suiji Support</a></p>
+
+  <div class="divider"></div>
+
+  <h1 lang="en">Privacy Policy</h1>
+  <p class="muted" lang="en">Effective: October 22, 2026 · Last updated: October 22, 2026</p>
+  <div lang="en">
+    <p>Suiji is a local-first notes app for iOS. No account is required. Notes and related data are stored on your device by default. The app contains no advertising SDK, cross-app tracking, or behavioral analytics SDK.</p>
+    <h2>Optional iCloud Sync</h2>
+    <p>iCloud sync is off by default. If you enable it, relevant app data is synchronized to the private CloudKit database associated with your Apple ID. This storage is provided by Apple and is not a developer-operated notes server. Synced data may include regular note content, photos, folders, annotations, ordering data, encrypted note ciphertext and the plain-text title/index information needed for locked lists.</p>
+    <h2>Optional AI / Model Services</h2>
+    <p>AI features are off by default. If you configure a compatible third-party model endpoint and explicitly confirm a request, selected regular-note titles, text and included annotations may be sent to that provider. Encrypted notes, Recently Deleted items and photos are not included in model requests. The provider's own privacy policy governs data it receives.</p>
+    <h2>Security and Retention</h2>
+    <p>Protected note contents use a password-derived encryption key. Certain title and index metadata may remain visible for locked-list functionality. Items moved to Recently Deleted are retained for 30 days by default. User-exported backups are not automatically deleted when content is removed from the app.</p>
+    <h2>Contact</h2>
+    <p>For privacy questions, contact the developer through the public repository Issues page: <a href="https://github.com/gitfengxx/suiji-privacy/issues">https://github.com/gitfengxx/suiji-privacy/issues</a>.</p>
+  </div>
+</article>
+<footer>© 2026 随记 Suiji · <a href="./support.html">Support</a></footer>
+</main>
+</body>
+</html>
