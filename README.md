@@ -1,6 +1,6 @@
-# Suiji Privacy & Support Site
+# Lu Wang Bei Privacy & Support Site
 
-Static site for the iOS app “随记 / Suiji”.
+Static site for the iOS app “录忘备 / Lu Wang Bei”.
 
 - Privacy Policy: index.html
 - Support: support.html
