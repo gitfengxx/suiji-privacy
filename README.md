@@ -1,6 +1,6 @@
-# Lu Wang Bei Privacy & Support Site
+# Jianji Privacy & Support Site
 
-Static site for the iOS app “录忘备 / Lu Wang Bei”.
+Static site for the iOS app “简记 / Jianji”.
 
 - Privacy Policy: index.html
 - Support: support.html
